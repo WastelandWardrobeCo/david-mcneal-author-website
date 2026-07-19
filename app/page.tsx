@@ -16,35 +16,44 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-glow" />
+        <div className="hero-scene" aria-hidden="true" />
+        <div className="hero-vignette" aria-hidden="true" />
         <div className="hero-copy">
-          <p className="eyebrow"><span /> Speculative fiction by David McNeal</p>
+          <p className="eyebrow"><span /> Fiction by David McNeal</p>
           <h1>Ordinary people.<br /><em>Impossible choices.</em></h1>
           <p className="hero-lede">
-            Stories about memory, consequence, survival—and the quiet moments
-            when a single choice changes everything.
+            Stories of memory, consequence, survival—and the lives we might
+            have lived.
           </p>
           <div className="hero-actions">
-            <a className="button gold" href="#featured">Discover Borrowed Years <Arrow /></a>
+            <a className="button gold" href="https://www.amazon.com/author/davidmcneal" target="_blank" rel="noreferrer">Read the featured novel <Arrow /></a>
             <a className="text-link" href="#books">View the complete catalog <span>→</span></a>
           </div>
           <div className="hero-proof">
             <span className="monogram">DM</span>
-            <p><b>Independent fiction</b><br />Published under the Systema Obscura imprint</p>
+            <p><b>19 published books</b><br />Independent fiction from the Systema Obscura imprint</p>
           </div>
         </div>
 
         <div className="hero-art" id="featured">
           <div className="book-aura" />
-          <img src="/borrowed-years-cover.png" alt="Borrowed Years by David McNeal book cover" />
+          <div className="book-object">
+            <span className="book-pages" aria-hidden="true" />
+            <img src="/borrowed-years-cover.png" alt="Borrowed Years by David McNeal book cover" />
+          </div>
           <div className="book-caption">
-            <span>Featured novel</span>
+            <span>Now available</span>
             <strong>BORROWED YEARS</strong>
             <small>He lost an hour. He gained a lifetime.</small>
           </div>
         </div>
-        <p className="vertical-note">STORIES THAT STAY WITH YOU</p>
+        <p className="vertical-note">THE CURIOSITY SHOP / SHELF B6</p>
+        <div className="hero-index" aria-hidden="true"><span>07</span><span>12</span><span>21</span><span>29</span><span>47</span><span>63</span></div>
       </section>
+
+      <div className="story-strip" aria-label="David McNeal story themes">
+        <span>MEMORY</span><i>✦</i><span>CONSEQUENCE</span><i>✦</i><span>SURVIVAL</span><i>✦</i><span>THE IMPOSSIBLE MADE PERSONAL</span>
+      </div>
 
       <section className="manifesto">
         <p className="section-number">01 / THE WORK</p>
@@ -73,7 +82,7 @@ export default function Home() {
               <p className="card-kicker">A speculative novel</p>
               <h3>Borrowed Years</h3>
               <p>What if the happiest years of your life never happened—but you remembered every one of them?</p>
-              <a href="#contact">Explore the book <Arrow /></a>
+              <a href="https://www.amazon.com/author/davidmcneal" target="_blank" rel="noreferrer">Explore the book <Arrow /></a>
             </div>
           </article>
           <article className="catalog-card red-card">
@@ -82,7 +91,7 @@ export default function Home() {
               <p className="card-kicker">Post-apocalyptic fiction</p>
               <h3>Lady & Delilah</h3>
               <p>Five arrows. One relentless survivor. And a dire wolf who knows exactly when mercy has failed.</p>
-              <a href="#contact">Enter the wasteland <Arrow /></a>
+              <a href="https://ladyanddelilah.com" target="_blank" rel="noreferrer">Enter the wasteland <Arrow /></a>
             </div>
           </article>
           <article className="catalog-card signal-card">
@@ -91,7 +100,7 @@ export default function Home() {
               <p className="card-kicker">Short fiction & experiments</p>
               <h3>Systema Obscura</h3>
               <p>Dark transmissions, psychological turns, and stories that leave the door slightly open.</p>
-              <a href="#contact">Follow the signal <Arrow /></a>
+              <a href="https://systemaobscura.co" target="_blank" rel="noreferrer">Follow the signal <Arrow /></a>
             </div>
           </article>
         </div>
@@ -110,7 +119,7 @@ export default function Home() {
             found in unexpected moments, he creates fiction where the extraordinary
             feels close enough to touch—and every miracle carries a price.
           </p>
-          <a className="text-link" href="#contact">More about David <span>→</span></a>
+          <a className="text-link" href="https://www.amazon.com/author/davidmcneal" target="_blank" rel="noreferrer">Visit the author page <span>→</span></a>
         </div>
       </section>
 
@@ -120,8 +129,8 @@ export default function Home() {
           <h2>Stories are better<br />when they’re shared.</h2>
         </div>
         <div className="footer-links">
-          <a href="mailto:hello@davidmcnealbooks.com">Email David <Arrow /></a>
-          <a href="#books">Browse the catalog <Arrow /></a>
+          <a href="https://www.amazon.com/author/davidmcneal" target="_blank" rel="noreferrer">Amazon author page <Arrow /></a>
+          <a href="#books">Browse the worlds <Arrow /></a>
           <a href="#top">Back to top ↑</a>
         </div>
         <div className="footer-bottom">
