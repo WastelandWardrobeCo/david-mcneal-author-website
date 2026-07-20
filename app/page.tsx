@@ -26,7 +26,7 @@ export default function Home() {
             have lived.
           </p>
           <div className="hero-actions">
-            <a className="button gold" href="https://www.amazon.com/author/davidmcneal" target="_blank" rel="noreferrer">Read the featured novel <Arrow /></a>
+            <a className="button gold" href="https://www.amazon.com/Borrowed-Years-David-McNeal/dp/B0H8MH3R53" target="_blank" rel="noreferrer">Read the featured novel <Arrow /></a>
             <a className="text-link" href="#books">View the complete catalog <span>→</span></a>
           </div>
           <div className="hero-proof">
@@ -82,7 +82,7 @@ export default function Home() {
               <p className="card-kicker">A speculative novel</p>
               <h3>Borrowed Years</h3>
               <p>What if the happiest years of your life never happened—but you remembered every one of them?</p>
-              <a href="https://www.amazon.com/author/davidmcneal" target="_blank" rel="noreferrer">Explore the book <Arrow /></a>
+              <a href="https://www.amazon.com/Borrowed-Years-David-McNeal/dp/B0H8MH3R53" target="_blank" rel="noreferrer">View Borrowed Years on Amazon <Arrow /></a>
             </div>
           </article>
           <article className="catalog-card red-card">
@@ -91,7 +91,7 @@ export default function Home() {
               <p className="card-kicker">Post-apocalyptic fiction</p>
               <h3>Lady & Delilah</h3>
               <p>Five arrows. One relentless survivor. And a dire wolf who knows exactly when mercy has failed.</p>
-              <a href="https://ladyanddelilah.com" target="_blank" rel="noreferrer">Enter the wasteland <Arrow /></a>
+              <a href="https://ladyanddelilah.com" target="_blank" rel="noreferrer">Visit LadyAndDelilah.com <Arrow /></a>
             </div>
           </article>
           <article className="catalog-card signal-card">
@@ -108,7 +108,7 @@ export default function Home() {
 
       <section className="about" id="about">
         <div className="portrait-wrap">
-          <img src="/david-mcneal.jpg" alt="David McNeal" />
+          <img src="/david-mcneal-cropped.png" alt="David McNeal" />
           <span>AUTHOR / STORYTELLER</span>
         </div>
         <div className="about-copy">
