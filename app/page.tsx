@@ -86,7 +86,7 @@ export default function Home() {
             </div>
           </article>
           <article className="catalog-card red-card">
-            <div className="card-symbol">V</div>
+            <img className="series-cover" src="/lady-delilah-book-1-cover.jpg" alt="Lady and Delilah Book One cover" />
             <div>
               <p className="card-kicker">Post-apocalyptic fiction</p>
               <h3>Lady & Delilah</h3>
